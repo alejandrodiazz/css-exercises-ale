@@ -46,3 +46,41 @@ a {
 ul {
   list-style-type: none;
 }
+
+/*my edits*/
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo{
+  padding-left: 20px;
+}
+
+.button{
+  padding: 4px 24px;
+  margin: 40px;
+}
+.profile-image{
+  margin-right: 8px;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  gap:12px;
+
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
