@@ -41,8 +41,8 @@ body {
   color: #888;
   font-weight: 400;
   font-size: 16px;
-  height: 24px;
-  width: 24px;
+  height: 28px;
+  width: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,3 +67,30 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/*mychanges*/
+
+
+.modal{
+  display: flex;
+  justify-content: space-between;
+  padding:15px;
+  
+  gap: 10px;
+}
+.center{
+  margin:5px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.header{
+  font-weight: bold;
+}
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+
